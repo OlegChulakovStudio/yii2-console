@@ -1,0 +1,24 @@
+{
+    "name": "oleg-chulakov-studio/yii2-console",
+    "description": "Console component for yii2 templates",
+    "type": "yii-component",
+    "license": "BSD-3-Clause",
+    "require": {
+        "php": ">=7.3",
+        "yiisoft/yii2": "~2.0.25"
+    },
+    "suggest": {
+        "oleg-chulakov-studio/yii2-filestorage": "Need for support UploadFileMigrationTrait"
+    },
+    "authors": [
+        {
+            "name": "Chulakov Studio",
+            "email": "hello@chulakov.ru"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "chulakov\\console\\": "src/"
+        }
+    }
+}
